@@ -144,7 +144,7 @@ class Upgrader {
     }
 
     // Get the current locale of the device (TBD), defaulting to US.
-    _countryCode ??= 'US';
+    _countryCode ??= 'MY';
 
     await _updateVersionInfo();
 
